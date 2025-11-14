@@ -193,27 +193,34 @@ After all candidates are known and before the voting period starts, the EC must 
 Furthermore, there is a hard maximum of two members with the same CoI at any time.
 If this condition is suspected to be violated because of job changes, acquisitions, or other events, all non-involved currently serving SC members will have a simple majority decision over whether there is a violation.
 In case it is deemed a violation, sufficient members of the committee must resign until the max representation limit is achieved.
-If it is impossible to find sufficient members to resign, all members with that same CoI will be removed and a new special election shall be held.
+If it is impossible to find sufficient members to resign, all members with that same CoI will be removed and a new special partial election shall be held.
 
 #### Special Elections
+
+In a few cases, elections for SC members outside of the regular schedule can be held.
+These are termed *special elections*.
+
+A special election can either be *total*, in which the entire SC will be reelected from scratch, or *partial*, in which some seats will remain held by existing SC members, and the other seats will be reelected.
+
+#### Partial Special Elections
 
 Circumstances may result in the SC having less than all 7 seats filled.
 
 > This may occur in the event of resignations or other loss of a steering committee members (including [removals for conduct](#removal-for-conduct))
 
-When one or more seats are vacant, a special election may be held just for those vacant seats.
+When one or more seats are vacant, a partial special election may be held just for those vacant seats.
 A committee member elected in a special election will serve out the remainder of the term of the person they are replacing, regardless of the length of that remainder.
 
 Procedure for holding special elections is based on the ratio of filled seats to total seats:
 
-- At 100% (all seats are filled): special elections are prohibited.
-- Greater or equal to 50% and less than 100%: the SC may choose to hold a special election by [ordinary decision](#ordinary-decisions).
-- Less than 50%: The SC must either choose to hold a special election, or a total reelection (either special or initial).
+- At 100% (all seats are filled): partial special elections are prohibited.
+- Greater or equal to 50% and less than 100%: the SC may choose to hold a partial special election by [ordinary decision](#ordinary-decisions).
+- Less than 50%: The SC must either choose to hold a partial special election, or a total reelection (either special or initial).
 
-#### Full Reelections
+#### Total Reelections
 
 A simple majority within the SC may call a reelection of the entire SC based on perceived loss of confidence.
-In this case, it also has to be decided whether this election is considered a special election for the remainders of all the corresponding terms, or an initial election for full 2-year terms for half of the seats rounded up and 1-year half-terms for the remaining seats.
+In this case, it also has to be decided whether this election is considered a (total) special election for the remainders of all the corresponding terms, or a (total) initial election for full 2-year terms for half of the seats rounded up and 1-year half-terms for the remaining seats.
 Vacant seats vote in favour of reelection, and between initial election and special election they count towards special election.
 
 ### Removal for conduct
@@ -222,4 +229,4 @@ A supermajority within the SC may remove SC members for violating the community 
 The reasons include but are not limited to unfitting conduct and unavailability, and a summary of the reason should be respectfully described.
 The SC is explicitly expected to be held to higher standards than applied to project communication in general.
 
-After a removal has occured, it is possible to hold a [special election](#special-election) to fill the vacant seat.
+> After a removal has occured, it is possible to hold a [partial special election](#partial-special-election) to fill the vacant seat.
