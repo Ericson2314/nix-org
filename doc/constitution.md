@@ -204,7 +204,11 @@ Circumstances may result in the SC having less than all 7 seats filled.
 When one or more seats are vacant, a special election may be held just for those vacant seats.
 A committee member elected in a special election will serve out the remainder of the term of the person they are replacing, regardless of the length of that remainder.
 
-A special election for that seat may be held if the SC deems it necessary, or the SC does not have half of the normal size.
+Procedure for holding special elections is based on the ratio of filled seats to total seats:
+
+- At 100% (all seats are filled): special elections are prohibited.
+- Greater or equal to 50% and less than 100%: the SC may choose to hold a special election by [ordinary decision](#ordinary-decisions).
+- Less than 50%: The SC must either choose to hold a special election, or a total reelection (either special or initial).
 
 #### Full Reelections
 
@@ -218,4 +222,4 @@ A supermajority within the SC may remove SC members for violating the community 
 The reasons include but are not limited to unfitting conduct and unavailability, and a summary of the reason should be respectfully described.
 The SC is explicitly expected to be held to higher standards than applied to project communication in general.
 
-The removal can be justification for a special election where the removed person is not eligible to be a candidate.
+After a removal has occured, it is possible to hold a [special election](#special-election) to fill the vacant seat.
