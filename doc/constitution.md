@@ -108,7 +108,7 @@ Deciding that an amendment is not substantial can be done by unanimity among a f
 
 #### Ordinary decisions
 
-Everything within the authority of SC that doesn't require an extraordinary decision can be decided with a simple majority (more than 50%) of a full SC (vacant seats count as abstaining, [except when voting for reelection](#full-reelections)).
+Everything within the authority of SC that doesn't require an extraordinary decision can be decided with a simple majority (more than 50%) of a full SC (vacant seats count as abstaining, except when voting for [elections when there are a critical number of vacancies](#vacancies) and [dissolutions](#dissolution).
 
 An exception to that is when there is when the [conflict of interest balance](#conflict-of-interest-coi-balance) condition is suspected to be violated.
 In that case, all non-involved currently serving SC members will have a simple majority decision over whether there is a violation.
@@ -175,8 +175,8 @@ In any election where seats with different end-of-term dates are available, winn
 
 #### Initial Elections
 
-An initial election of the entire SC must appoint half the members rounded up with 2-year terms and the remaining members with 1-year terms.
-This occurs with the first SC election, and also may occur in the event the SC is [dissolved](#full-reelections).
+An election of the entire SC must appoint half the members rounded up with 2-year terms and the remaining members with 1-year terms.
+This occurs with the first SC election, and also may occur in the event the SC is [dissolved](#dissolution).
 
 Additionally, the following rules apply to the very first election:
 - The EC for the first election will be the members of the [Nix Constitutional Assembly (NCA)](https://github.com/nixos/nix-constitutional-assembly?tab=readme-ov-file#members), which are thus ineligible to be elected for the first SC
@@ -198,28 +198,36 @@ If this condition is suspected to be violated because of job changes, acquisitio
 In case it is deemed a violation, sufficient members of the committee must resign until the max representation limit is achieved.
 If it is impossible to find sufficient members to resign, all members with that same CoI will be removed and a new [special election] shall be held.
 
-#### Special Elections
+#### Steering Committee Vacancies {#vacancies}
 
-In the event of resignations or other loss of steering committee members (including [removals for conduct](#removal-for-conduct)), the SC would have less than all 7 seats filled.
+Circumstances may result in the SC having less than all 7 seats filled.
+
+- When at least half of the seats are filled, the SC shall either hold or not hold a [special election] to fill the remaining seats as it sees fit.
+
+- When less than half of the seats are filled, the SC must take actions with end in an election that restores the SC the full size.
+  In particular, either a special election can be held for just those seats, or the SC can be [dissolved](#dissolution).
+
+- When all seats are to be vacated (e.g. due to a dissolution) an election must be held for all seats
+  The SC decides whether this election is considered a [special election] for the remainders of all the corresponding terms, or an [initial election] for full 2-year terms for half of the seats rounded up and 1-year half-terms for the remaining seats.
+  Vacant seats (pre dissolution) vote in favour of a initial election rather than an initial election.
+
+#### Special Elections
 
 When one or more seats are vacant, a special election may be held for those vacant seats.
 A committee member elected in a special election will serve out the remainder of the term of the person they are replacing, regardless of the length of that remainder.
 
-A special election for vacant seats may be held if the SC deems it necessary, or the SC does not have half of the normal size.
+#### Self-dissolution of the Steering Commitee {#dissolution}
 
-#### Full Reelections
+A simple majority within the SC may call for the dissolution of the entire SC based on perceived loss of confidence.
 
-A simple majority within the SC may call a reelection of the entire SC based on perceived loss of confidence.
-In this case, it also has to be decided whether this election is considered a [special election] for the remainders of all the corresponding terms, or an [initial election] for full 2-year terms for half of the seats rounded up and 1-year half-terms for the remaining seats.
-Vacant seats vote in favour of reelection, and between initial election and special election they count towards special election.
+Vacant seats vote in favour of dissolution.
+Vacant seats however do not trigger a vote for dissolution.
 
 ### Removal for conduct
 
 A supermajority within the SC may remove SC members for violating the community expectations for members in positions of high authority.
 The reasons include but are not limited to unfitting conduct and unavailability, and a summary of the reason should be respectfully described.
 The SC is explicitly expected to be held to higher standards than applied to project communication in general.
-
-The removal can be justification for a special election where the removed person is not eligible to be a candidate.
 
 [special election]: #special-elections
 [initial election]: #special-elections
